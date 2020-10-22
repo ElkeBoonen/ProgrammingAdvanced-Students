@@ -11,8 +11,8 @@ namespace DP_IMS
             Console.WriteLine("FIB("+ f.Number + ")=" + f.Ruben(f.Number));
             Console.WriteLine("FIB(" + f.Number + ")=" + f.Tabulation(f.Number));
             Console.WriteLine("FIB(" + f.Number + ")=" + f.Memoization(f.Number));
-            Console.WriteLine("FIB(" + f.Number + ")=" + f.Recursief(f.Number));*/
-
+            Console.WriteLine("FIB(" + f.Number + ")=" + f.Recursief(f.Number));
+            */
             Rod r = new Rod(new int[] { 1, 5, 8, 9 });
             Console.WriteLine("Max = " + r.Ruben(r.Length));
             Console.WriteLine("Max = " + r.Memoization(r.Length));

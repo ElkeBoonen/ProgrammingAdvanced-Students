@@ -57,6 +57,7 @@ namespace DP_IMS
                     Console.Write(Prices[j - 1] + tabulation[i - j] + " " );
                     tabulation[i] = max;
                 }
+                Console.Write("---> max " + tabulation[i]);
                 Console.WriteLine();
             }
             return tabulation[n];
